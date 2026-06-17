@@ -1,1 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+body {
+    background: #f4f6f8;
+    color: #222;
+}
+
+.topbar {
+    background: #ffffff;
+    padding: 15px;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.title-area {
+    text-align: center;
+}
+
+.title-area h1 {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.title-area h2 {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.toolbar {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.toolbar button {
+    padding: 8px 14px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    min-height: calc(100vh - 140px);
+}
+
+.sidebar {
+    width: 280px;
+    background: #ffffff;
+    border-right: 1px solid #dcdcdc;
+    padding: 15px;
+    overflow-y: auto;
+}
+
+.sidebar h3 {
+    margin-bottom: 15px;
+}
+
+.template-group {
+    margin-bottom: 20px;
+}
+
+.template-group h4 {
+    margin-bottom: 8px;
+    color: #0b5394;
+}
+
+.template-group ul {
+    list-style: none;
+}
+
+.template-group li {
+    padding: 6px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.template-group li:hover {
+    background: #e8eef7;
+}
+
+.workspace {
+    flex: 1;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.row input {
+    flex: 1;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #bfbfbf;
+    border-radius: 4px;
+}
+
+textarea {
+    margin-bottom: 15px;
+}
+
+.workspace h3 {
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+.signature {
+    text-align: right;
+    margin-top: 40px;
+}
+
+footer {
+    text-align: center;
+    padding: 12px;
+    background: white;
+    border-top: 1px solid #dcdcdc;
+}
+
+/* DARK MODE */
+
+.dark-mode {
+    background: #1e1e1e;
+    color: #ffffff;
+}
+
+.dark-mode .topbar,
+.dark-mode .sidebar,
+.dark-mode footer {
+    background: #2c2c2c;
+    color: white;
+}
+
+.dark-mode input,
+.dark-mode textarea,
+.dark-mode select {
+    background: #333333;
+    color: white;
+    border: 1px solid #555555;
+}
+
+/* PRINT */
+
+@media print {
+
+    .toolbar,
+    .sidebar {
+        display: none;
+    }
+
+    .workspace {
+        width: 100%;
+    }
+
+    body {
+        background: white;
+    }
+}
