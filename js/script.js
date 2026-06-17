@@ -81,20 +81,19 @@ Impression:
 Normal thyroid ultrasound.`;
 
         }
-        document.getElementById("copyReport").addEventListener("click", function () {
-
-    let reportText = document.getElementById("reportArea");
-
-    reportText.select();
-
-    navigator.clipboard.writeText(reportText.value);
-
-    alert("Report copied successfully!");
-
-});
 
     }
 
     document.getElementById("reportArea").value = report;
+
+});
+
+document.getElementById("copyReport").addEventListener("click", function () {
+
+    let reportText = document.getElementById("reportArea");
+
+    navigator.clipboard.writeText(reportText.value);
+
+    alert("Report copied successfully!");
 
 });
