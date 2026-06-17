@@ -1,1 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Radiology Reporting System</title>
 
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header class="topbar">
+
+    <div class="title-area">
+        <h1>DEPARTMENT OF RADIODIAGNOSIS & IMAGING</h1>
+        <h2 id="hospitalName">7 AIR FORCE HOSPITAL, KANPUR</h2>
+    </div>
+
+    <div class="toolbar">
+        <button id="newBtn">New</button>
+        <button id="saveBtn">Save</button>
+        <button id="printBtn">Print</button>
+        <button id="darkModeBtn">Dark Mode</button>
+        <button id="settingsBtn">Settings</button>
+    </div>
+
+</header>
+
+<div class="container">
+
+    <!-- LEFT PANEL -->
+
+    <aside class="sidebar">
+
+        <h3>Templates</h3>
+
+        <div class="template-group">
+            <h4>CT</h4>
+            <ul>
+                <li>HRCT Chest</li>
+                <li>CECT Abdomen</li>
+                <li>NCCT Head</li>
+                <li>CT Pulmonary Angiogram</li>
+            </ul>
+        </div>
+
+        <div class="template-group">
+            <h4>MRI</h4>
+            <ul>
+                <li>MRI Brain</li>
+                <li>MRI LS Spine</li>
+                <li>MRI Shoulder</li>
+            </ul>
+        </div>
+
+        <div class="template-group">
+            <h4>USG</h4>
+            <ul>
+                <li>Whole Abdomen</li>
+                <li>Thyroid</li>
+                <li>Breast</li>
+            </ul>
+        </div>
+
+        <div class="template-group">
+            <h4>Doppler</h4>
+            <ul>
+                <li>Carotid</li>
+                <li>Lower Limb Venous</li>
+                <li>Lower Limb Arterial</li>
+            </ul>
+        </div>
+
+        <div class="template-group">
+            <h4>Obstetric</h4>
+            <ul>
+                <li>Dating Scan</li>
+                <li>Anomaly Scan</li>
+                <li>Growth Scan</li>
+            </ul>
+        </div>
+
+    </aside>
+
+    <!-- MAIN REPORT AREA -->
+
+    <main class="workspace">
+
+        <section class="patient-section">
+
+            <div class="row">
+                <input type="text" placeholder="Reg No">
+                <input type="date">
+                <input type="text" placeholder="Report No">
+            </div>
+
+            <div class="row">
+                <input type="text" placeholder="Patient Name">
+                <input type="text" placeholder="Age / Sex">
+            </div>
+
+            <div class="row">
+                <input type="text" placeholder="Referred By">
+            </div>
+
+        </section>
+
+        <section>
+
+            <h3>Clinical Details</h3>
+            <textarea rows="4"></textarea>
+
+            <h3>Findings</h3>
+            <textarea rows="12"></textarea>
+
+            <h3>Impression</h3>
+            <textarea rows="6"></textarea>
+
+        </section>
+
+        <section>
+
+            <h3>Reporting Radiologist</h3>
+
+            <select>
+                <option>Chandan Tiwari</option>
+                <option>Prateek</option>
+                <option>Amar Prakash</option>
+                <option>Shreedhar Sharma</option>
+                <option>Shubha</option>
+            </select>
+
+        </section>
+
+        <div class="signature">
+
+            <strong>Chandan Tiwari</strong><br>
+            Wg Cdr<br>
+            Gd Spl Radiology
+
+        </div>
+
+    </main>
+
+</div>
+
+<footer>
+
+Department of Radiodiagnosis & Imaging |
+7 Air Force Hospital, Kanpur |
+Computer Generated Report
+
+</footer>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
