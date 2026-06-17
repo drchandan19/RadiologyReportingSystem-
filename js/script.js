@@ -1,12 +1,15 @@
 document.getElementById("loadTemplate").addEventListener("click", function () {
 
     let modality = document.getElementById("modality").value;
+    let studyType = document.getElementById("studyType").value;
 
     let report = "";
 
     if (modality === "Ultrasound") {
 
-        report =
+        if (studyType === "Abdomen") {
+
+            report =
 `ULTRASOUND ABDOMEN
 
 Liver:
@@ -24,24 +27,60 @@ Normal.
 Impression:
 No significant abnormality detected.`;
 
-    }
+        }
 
-    else if (modality === "CT") {
+        else if (studyType === "KUB") {
 
-        report =
-`CT CHEST
+            report =
+`ULTRASOUND KUB
 
-Lungs:
-No focal lesion seen.
+Both kidneys are normal in size and echotexture.
 
-Pleura:
-No pleural effusion.
+No renal calculus seen.
 
-Mediastinum:
-No significant lymphadenopathy.
+Urinary bladder is adequately distended.
 
 Impression:
-No acute CT abnormality detected.`;
+No significant abnormality detected.`;
+
+        }
+
+        else if (studyType === "Pelvis") {
+
+            report =
+`ULTRASOUND PELVIS
+
+Uterus:
+Normal in size and echotexture.
+
+Endometrium:
+Normal thickness.
+
+Both ovaries:
+Normal.
+
+No free fluid seen.
+
+Impression:
+No significant abnormality detected.`;
+
+        }
+
+        else if (studyType === "Thyroid") {
+
+            report =
+`ULTRASOUND THYROID
+
+Both thyroid lobes are normal in size.
+
+Echotexture is homogeneous.
+
+No focal thyroid nodule seen.
+
+Impression:
+Normal thyroid ultrasound.`;
+
+        }
 
     }
 
