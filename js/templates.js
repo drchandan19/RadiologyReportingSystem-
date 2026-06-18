@@ -1,5 +1,6 @@
 const templates = {
     MRI: {
+
         "MRI Brain": `MRI BRAIN
 
 No focal parenchymal signal abnormality.
@@ -13,9 +14,7 @@ Ventricular system is normal.
 No midline shift.
 
 Impression:
-No significant intracranial abnormality detected.`
-
-        ,
+No significant intracranial abnormality detected.`,
 
         "MRI Lumbar Spine": `MRI LUMBAR SPINE
 
@@ -36,10 +35,30 @@ Neural foramina are patent.
 Conus medullaris appears normal.
 
 Impression:
-No significant abnormality detected in the lumbar spine.`
+No significant abnormality detected in the lumbar spine.`,
+
+        "MRI Knee": `MRI KNEE
+
+ACL and PCL are intact.
+
+Medial and lateral collateral ligaments are intact.
+
+Medial and lateral menisci are normal in morphology and signal intensity.
+
+Articular cartilage is preserved.
+
+No joint effusion.
+
+No marrow edema or fracture.
+
+Extensor mechanism is intact.
+
+Impression:
+No significant abnormality detected in the knee joint.`
     },
 
     CT: {
+
         "CT Chest": `CT CHEST
 
 Lungs:
