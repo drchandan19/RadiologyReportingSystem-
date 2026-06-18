@@ -283,7 +283,67 @@ No significant intracranial abnormality detected.`;
 
     }
 
-}
+        else if (studyType === "MRI Lumbar Spine") {
+
+        report =
+`MRI LUMBAR SPINE
+
+Lumbar vertebral alignment is maintained.
+
+No focal marrow signal abnormality.
+
+Intervertebral discs show preserved height and signal intensity.
+
+No significant disc bulge, protrusion or extrusion.
+
+Conus medullaris appears normal.
+
+Impression:
+No significant MRI abnormality detected in the lumbar spine.`;
+
+    }
+
+    else if (studyType === "MRI Knee") {
+
+    report =
+`MRI KNEE
+
+ACL and PCL are intact.
+
+Medial and lateral menisci are normal in morphology and signal intensity.
+
+Collateral ligaments are intact.
+
+No significant joint effusion.
+
+Articular cartilage is preserved.
+
+Impression:
+No significant MRI abnormality detected in the knee joint.`;
+
+    }
+
+    else if (studyType === "MRI Shoulder") {
+
+    report =
+`MRI SHOULDER
+
+Rotator cuff tendons are intact.
+
+No full-thickness tear identified.
+
+Long head of biceps tendon is normally located.
+
+No significant joint effusion.
+
+No marrow edema.
+
+Impression:
+No significant MRI abnormality detected in the shoulder joint.`;
+
+        }
+
+    }
 
     document.getElementById("reportArea").value = report;
 
