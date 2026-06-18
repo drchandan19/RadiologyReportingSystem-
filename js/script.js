@@ -5,7 +5,7 @@ document.getElementById("loadTemplate").addEventListener("click", function () {
 
     let report = "";
 
-    if (modality === "Ultrasound") {
+    if (modality === "Ultrasound" || modality === "CT") {
 
         if (studyType === "Abdomen") {
 
@@ -118,10 +118,9 @@ No significant abnormality detected.`;
 
         }
 
-    }
-else if (studyType === "CT Chest") {
+        else if (studyType === "CT Chest") {
 
-    report =
+        report =
 `CT CHEST
 
 Lungs:
@@ -136,11 +135,11 @@ No significant lymphadenopathy.
 Impression:
 No acute CT abnormality detected.`;
 
-}
+        }
 
-else if (studyType === "NCCT Head") {
+        else if (studyType === "NCCT Head") {
 
-    report =
+        report =
 `NCCT HEAD
 
 No evidence of intracranial hemorrhage.
