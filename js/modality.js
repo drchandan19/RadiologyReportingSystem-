@@ -28,6 +28,7 @@ document.getElementById("modality").addEventListener("change", function () {
     <option>CECT Abdomen</option>
     <option>CT KUB</option>
     <option>CT PNS</option>
+    <option>HRCT ILD</option>
 `       ;
 
     }
