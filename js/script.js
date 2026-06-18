@@ -5,7 +5,7 @@ document.getElementById("loadTemplate").addEventListener("click", function () {
 
     let report = "";
 
-    if (modality === "Ultrasound" || modality === "CT") {
+    if (modality === "Ultrasound") {
 
         if (studyType === "Abdomen") {
 
@@ -118,42 +118,8 @@ No significant abnormality detected.`;
 
         }
 
-        else if (studyType === "CT Chest") {
+    }
 
-        report =
-`CT CHEST
-
-Lungs:
-No focal consolidation or suspicious pulmonary nodule.
-
-Pleura:
-No pleural effusion or pneumothorax.
-
-Mediastinum:
-No significant lymphadenopathy.
-
-Impression:
-No acute CT abnormality detected.`;
-
-        }
-
-        else if (studyType === "NCCT Head") {
-
-        report =
-`NCCT HEAD
-
-No evidence of intracranial hemorrhage.
-
-No focal parenchymal abnormality.
-
-Ventricular system is normal.
-
-No midline shift.
-
-Impression:
-No acute intracranial abnormality detected.`;
-
-}
     document.getElementById("reportArea").value = report;
 
 });
