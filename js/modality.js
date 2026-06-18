@@ -33,4 +33,15 @@ document.getElementById("modality").addEventListener("change", function () {
 
     }
 
+    else if (modality === "MRI") {
+
+    studyType.innerHTML = `
+            <option>MRI Brain</option>
+            <option>MRI Knee</option>
+            <option>MRI Shoulder</option>
+            <option>MRI Lumbar Spine</option>
+    `    ;
+
+    }
+
 });
