@@ -81,6 +81,40 @@ Impression:
 Normal thyroid ultrasound.`;
 
         }
+        else if (studyType === "Breast") {
+
+    report =
+`ULTRASOUND BREAST
+
+Both breasts show normal fibroglandular parenchymal pattern.
+
+No focal solid or cystic lesion identified.
+
+No architectural distortion seen.
+
+Both axillae are unremarkable.
+
+Impression:
+No sonographic abnormality detected.`;
+
+}
+else if (studyType === "Scrotum") {
+
+    report =
+`ULTRASOUND SCROTUM
+
+Both testes are normal in size and echotexture.
+
+No focal intratesticular lesion seen.
+
+Bilateral epididymides appear normal.
+
+No hydrocele or varicocele seen.
+
+Impression:
+No significant abnormality detected.`;
+
+}
 
     }
 
