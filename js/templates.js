@@ -21,7 +21,7 @@ No significant intracranial abnormality detected.`
 
     CT: {
 
-        "CT Chest": `CT CHEST
+    "CT Chest": `CT CHEST
 
 Lungs:
 No focal consolidation or suspicious pulmonary nodule.
@@ -35,7 +35,7 @@ No significant lymphadenopathy.
 Impression:
 No acute CT abnormality detected.`,
 
-        "NCCT Head": `NCCT HEAD
+    "NCCT Head": `NCCT HEAD
 
 No evidence of intracranial hemorrhage.
 
@@ -48,7 +48,7 @@ No midline shift.
 Impression:
 No acute intracranial abnormality detected.`,
 
-        "HRCT Thorax": `HRCT THORAX
+    "HRCT Thorax": `HRCT THORAX
 
 No focal consolidation.
 
@@ -61,7 +61,7 @@ No pleural effusion.
 Impression:
 No significant abnormality detected on HRCT thorax.`,
 
-        "HRCT ILD": `HRCT ILD
+    "HRCT ILD": `HRCT ILD
 
 No evidence of reticulation.
 
@@ -76,7 +76,7 @@ No pleural effusion.
 Impression:
 No CT evidence of interstitial lung disease.`,
 
-        "CECT Abdomen": `CECT ABDOMEN
+    "CECT Abdomen": `CECT ABDOMEN
 
 Liver, spleen, pancreas and both kidneys appear normal.
 
@@ -89,7 +89,7 @@ No ascites.
 Impression:
 No significant abnormality detected.`,
 
-        "CT KUB": `CT KUB
+    "CT KUB": `CT KUB
 
 No renal, ureteric or vesical calculus.
 
@@ -100,7 +100,7 @@ Urinary bladder is unremarkable.
 Impression:
 No significant abnormality detected.`,
 
-        "CT PNS": `CT PNS
+    "CT PNS": `CT PNS
 
 Paranasal sinuses are well aerated.
 
@@ -112,6 +112,8 @@ Nasal septum is central.
 
 Impression:
 Normal CT PNS.`
+
+}
 
     }
     
