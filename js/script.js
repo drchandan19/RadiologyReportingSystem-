@@ -240,6 +240,24 @@ Impression:
 No significant abnormality detected in paranasal sinuses.`;
 
         }
+
+        else if (studyType === "HRCT ILD") {
+
+        report =
+`HRCT THORAX (ILD PROTOCOL)
+
+No reticulations, honeycombing or traction bronchiectasis.
+
+No ground glass opacities.
+
+No significant air trapping.
+
+No pleural effusion.
+
+Impression:
+No CT evidence of interstitial lung disease.`;
+
+        }
         
     }
 
