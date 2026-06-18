@@ -179,6 +179,32 @@ No significant abnormality detected on HRCT thorax.`;
 
         }
         
+        else if (studyType === "CECT Abdomen") {
+
+        report =
+`CECT ABDOMEN
+
+Liver:
+Normal in size and enhancement pattern.
+
+Gall bladder:
+Unremarkable.
+
+Pancreas:
+Normal.
+
+Spleen:
+Normal.
+
+Both kidneys show normal enhancement.
+
+No free fluid or significant lymphadenopathy.
+
+Impression:
+No significant abnormality detected on CECT abdomen.`;
+
+        }
+        
     }
 
     document.getElementById("reportArea").value = report;
