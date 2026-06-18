@@ -14,6 +14,29 @@ No midline shift.
 
 Impression:
 No significant intracranial abnormality detected.`
+
+        ,
+
+        "MRI Lumbar Spine": `MRI LUMBAR SPINE
+
+Alignment is maintained.
+
+Vertebral body heights are preserved.
+
+No marrow signal abnormality.
+
+Intervertebral discs show normal signal intensity.
+
+No focal disc protrusion or extrusion.
+
+Spinal canal is adequate.
+
+Neural foramina are patent.
+
+Conus medullaris appears normal.
+
+Impression:
+No significant abnormality detected in the lumbar spine.`
     },
 
     CT: {
