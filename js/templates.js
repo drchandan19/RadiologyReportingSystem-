@@ -1,6 +1,8 @@
-MRI: {
+const templates = {
 
-    "MRI Brain": `MRI BRAIN
+    MRI: {
+
+        "MRI Brain": `MRI BRAIN
 
 Technique:
 Multiplanar multisequence MRI of the brain performed without intravenous contrast.
@@ -32,7 +34,7 @@ Impression:
 1. No acute intracranial abnormality.
 2. No evidence of infarct, hemorrhage or mass lesion.`,
 
-    "MRI Lumbar Spine": `MRI LUMBAR SPINE
+        "MRI Lumbar Spine": `MRI LUMBAR SPINE
 
 Technique:
 Multiplanar multisequence MRI of the lumbosacral spine performed without intravenous contrast.
@@ -64,7 +66,7 @@ Impression:
 1. No significant abnormality detected in the lumbar spine.
 2. No disc herniation or neural compression.`,
 
-    "MRI Knee": `MRI KNEE
+        "MRI Knee": `MRI KNEE
 
 Technique:
 Multiplanar multisequence MRI of the knee performed without intravenous contrast.
@@ -94,7 +96,7 @@ Impression:
 1. Normal MRI examination of the knee.
 2. No meniscal, ligamentous or osteochondral abnormality detected.`,
 
-    "MRI Shoulder": `MRI SHOULDER
+        "MRI Shoulder": `MRI SHOULDER
 
 Technique:
 Multiplanar multisequence MRI of the shoulder performed without intravenous contrast.
@@ -125,4 +127,39 @@ Surrounding muscles demonstrate normal bulk and signal intensity.
 Impression:
 1. Normal MRI examination of the shoulder.
 2. No rotator cuff tear or other significant abnormality detected.`
-},
+    },
+
+    CT: {
+
+        "CT Chest": `CT CHEST
+
+Technique:
+Non-contrast CT examination of the thorax performed with multiplanar reconstructions.
+
+Findings:
+
+Lungs:
+No focal consolidation, suspicious pulmonary nodule or mass lesion.
+
+Central airways are patent.
+
+Pleura:
+No pleural effusion or pneumothorax.
+
+Mediastinum:
+No significant mediastinal or hilar lymphadenopathy.
+
+Heart and great vessels:
+Cardiac size is within normal limits.
+
+No pericardial effusion.
+
+Chest wall and visualized osseous structures:
+No significant abnormality detected.
+
+Impression:
+1. No acute intrathoracic abnormality.
+2. No focal pulmonary lesion identified.`
+    }
+
+};
