@@ -17,9 +17,7 @@ No midline shift.
 Impression:
 No significant intracranial abnormality detected.`
 
-    }
-
-    ,
+    },
 
     CT: {
 
