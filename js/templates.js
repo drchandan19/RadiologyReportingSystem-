@@ -17,6 +17,8 @@ No midline shift.
 Impression:
 No significant intracranial abnormality detected.`
 
+        }
+    
     },
 
     CT: {
@@ -112,8 +114,6 @@ Nasal septum is central.
 
 Impression:
 Normal CT PNS.`
-
-}
 
     }
     
