@@ -159,6 +159,26 @@ No acute intracranial abnormality detected.`;
 
         }
 
+        else if (studyType === "HRCT Thorax") {
+
+            report =
+`HRCT THORAX
+
+Trachea and central bronchi are patent.
+
+No focal consolidation.
+
+No suspicious pulmonary nodule.
+
+No pleural effusion.
+
+No mediastinal lymphadenopathy.
+
+Impression:
+No significant abnormality detected on HRCT thorax.`;
+
+        }
+        
     }
 
     document.getElementById("reportArea").value = report;
