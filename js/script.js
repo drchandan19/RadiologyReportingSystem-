@@ -261,6 +261,30 @@ No CT evidence of interstitial lung disease.`;
         
     }
 
+    else if (modality === "MRI") {
+
+        if (studyType === "MRI Brain") {
+
+        report =
+`MRI BRAIN
+
+No focal parenchymal signal abnormality.
+
+No diffusion restriction.
+
+No intracranial hemorrhage.
+
+Ventricular system is normal.
+
+No midline shift.
+
+Impression:
+No significant intracranial abnormality detected.`;
+
+    }
+
+}
+
     document.getElementById("reportArea").value = report;
 
 });
