@@ -124,17 +124,13 @@ No significant abnormality detected.`;
 
     report = templates.CT[studyType];
 
-        }
-        
-    }
+}
 
-    else if (modality === "MRI") {
+else if (modality === "MRI") {
 
     report = templates.MRI[studyType];
 
-        }   
-
-    }
+}
 
     document.getElementById("reportArea").value = report;
 
