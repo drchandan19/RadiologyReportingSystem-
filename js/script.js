@@ -204,6 +204,42 @@ Impression:
 No significant abnormality detected on CECT abdomen.`;
 
         }
+
+        else if (studyType === "CT KUB") {
+
+        report =
+`CT KUB
+
+Both kidneys are normal in size.
+
+No renal, ureteric or vesical calculus seen.
+
+No hydronephrosis.
+
+Urinary bladder appears unremarkable.
+
+Impression:
+No evidence of urolithiasis or obstructive uropathy.`;
+
+        }
+
+        else if (studyType === "CT PNS") {
+
+        report =
+`CT PNS
+
+Frontal, ethmoid, sphenoid and maxillary sinuses are well aerated.
+
+No mucosal thickening.
+
+No air-fluid level.
+
+Ostiomeatal complexes are patent.
+
+Impression:
+No significant abnormality detected in paranasal sinuses.`;
+
+        }
         
     }
 
