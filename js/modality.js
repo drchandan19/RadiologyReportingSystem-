@@ -22,9 +22,13 @@ document.getElementById("modality").addEventListener("change", function () {
     else if (modality === "CT") {
 
         studyType.innerHTML = `
-            <option>CT Chest</option>
-            <option>NCCT Head</option>
-        `;
+    <option>CT Chest</option>
+    <option>NCCT Head</option>
+    <option>HRCT Thorax</option>
+    <option>CECT Abdomen</option>
+    <option>CT KUB</option>
+    <option>CT PNS</option>
+`       ;
 
     }
 
