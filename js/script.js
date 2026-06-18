@@ -81,9 +81,10 @@ Impression:
 Normal thyroid ultrasound.`;
 
         }
+
         else if (studyType === "Breast") {
 
-    report =
+            report =
 `ULTRASOUND BREAST
 
 Both breasts show normal fibroglandular parenchymal pattern.
@@ -97,10 +98,11 @@ Both axillae are unremarkable.
 Impression:
 No sonographic abnormality detected.`;
 
-}
-else if (studyType === "Scrotum") {
+        }
 
-    report =
+        else if (studyType === "Scrotum") {
+
+            report =
 `ULTRASOUND SCROTUM
 
 Both testes are normal in size and echotexture.
@@ -114,7 +116,7 @@ No hydrocele or varicocele seen.
 Impression:
 No significant abnormality detected.`;
 
-}
+        }
 
     }
 
