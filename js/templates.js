@@ -1,76 +1,128 @@
-const templates = {
-    MRI: {
+MRI: {
 
-        "MRI Brain": `MRI BRAIN
+    "MRI Brain": `MRI BRAIN
 
+Technique:
+Multiplanar multisequence MRI of the brain performed without intravenous contrast.
+
+Findings:
 No focal parenchymal signal abnormality.
 
-No diffusion restriction.
+No diffusion restriction to suggest acute infarction.
 
-No intracranial hemorrhage.
+No evidence of intracranial hemorrhage.
 
-Ventricular system is normal.
+No mass lesion or significant surrounding edema.
+
+Gray-white matter differentiation is maintained.
+
+Basal ganglia, thalami, brainstem and cerebellum appear unremarkable.
+
+Ventricular system is normal in size and configuration.
+
+No extra-axial collection.
 
 No midline shift.
 
+Basal cisterns are patent.
+
+Visualized paranasal sinuses and mastoid air cells are clear.
+
 Impression:
-No significant intracranial abnormality detected.`,
+1. No acute intracranial abnormality.
+2. No evidence of infarct, hemorrhage or mass lesion.`,
 
-        "MRI Lumbar Spine": `MRI LUMBAR SPINE
+    "MRI Lumbar Spine": `MRI LUMBAR SPINE
 
-Alignment is maintained.
+Technique:
+Multiplanar multisequence MRI of the lumbosacral spine performed without intravenous contrast.
+
+Findings:
+Lumbar vertebral alignment is maintained.
 
 Vertebral body heights are preserved.
 
-No marrow signal abnormality.
+Normal marrow signal intensity is noted.
 
-Intervertebral discs show normal signal intensity.
+Intervertebral discs demonstrate preserved height and signal intensity.
 
-No focal disc protrusion or extrusion.
+No focal disc bulge, protrusion or extrusion.
 
-Spinal canal is adequate.
+No significant spinal canal stenosis.
 
-Neural foramina are patent.
+Neural foramina are patent bilaterally.
 
-Conus medullaris appears normal.
+Facet joints are unremarkable.
+
+Conus medullaris terminates at normal level and demonstrates normal signal intensity.
+
+Cauda equina nerve roots appear normal.
+
+Visualized paraspinal soft tissues are unremarkable.
 
 Impression:
-No significant abnormality detected in the lumbar spine.`,
+1. No significant abnormality detected in the lumbar spine.
+2. No disc herniation or neural compression.`,
 
-        "MRI Knee": `MRI KNEE
+    "MRI Knee": `MRI KNEE
 
-ACL and PCL are intact.
+Technique:
+Multiplanar multisequence MRI of the knee performed without intravenous contrast.
+
+Findings:
+Anterior cruciate ligament and posterior cruciate ligament are intact.
 
 Medial and lateral collateral ligaments are intact.
 
-Medial and lateral menisci are normal in morphology and signal intensity.
+Medial and lateral menisci demonstrate normal morphology and signal intensity.
 
-Articular cartilage is preserved.
+Quadriceps tendon and patellar tendon are intact.
 
-No joint effusion.
+Articular cartilage is preserved in all compartments.
+
+No osteochondral defect identified.
 
 No marrow edema or fracture.
 
-Extensor mechanism is intact.
+No significant joint effusion.
+
+No Baker's cyst.
+
+Surrounding musculature demonstrates normal signal intensity.
 
 Impression:
-No significant abnormality detected in the knee joint.`
-    },
+1. Normal MRI examination of the knee.
+2. No meniscal, ligamentous or osteochondral abnormality detected.`,
 
-    CT: {
+    "MRI Shoulder": `MRI SHOULDER
 
-        "CT Chest": `CT CHEST
+Technique:
+Multiplanar multisequence MRI of the shoulder performed without intravenous contrast.
 
-Lungs:
-No focal consolidation or suspicious pulmonary nodule.
+Findings:
+Supraspinatus, infraspinatus, subscapularis and teres minor tendons are intact.
 
-Pleura:
-No pleural effusion or pneumothorax.
+No evidence of rotator cuff tear.
 
-Mediastinum:
-No significant lymphadenopathy.
+Long head of biceps tendon is normally positioned within the bicipital groove and appears intact.
+
+No significant fluid within the biceps tendon sheath.
+
+Glenoid labrum appears intact.
+
+Acromioclavicular joint is maintained.
+
+Glenohumeral alignment is normal.
+
+No significant joint effusion.
+
+Articular cartilage is preserved.
+
+No marrow edema, fracture or focal osseous lesion.
+
+Surrounding muscles demonstrate normal bulk and signal intensity.
 
 Impression:
-No acute CT abnormality detected.`
-    }
-};
+1. Normal MRI examination of the shoulder.
+2. No rotator cuff tear or other significant abnormality detected.`
+},
